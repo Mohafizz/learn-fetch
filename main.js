@@ -6,7 +6,7 @@ fetch(`${BASE_URL}/api/user`, {
     Accept: "application/json",
     "Content-Type": "application/json",
     Authorization:
-      "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI1YWM2ZGE2YjZjYWIzOWMzMTZkNzgxZDgiLCJ1c2VybmFtZSI6InNvbWV1c2VyIiwiZXhwIjoxNTI4MTY1NDgzLCJpYXQiOjE1MjI5ODE0ODN9.RC_na3_0lmp49pzJB2slVIC1WwOed7mHYu4JpE4q4qg"
+      "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI1YWM3MTVmYTZmZTg5NzM2ZWY4YTc3Y2QiLCJ1c2VybmFtZSI6InNvbWV1c2VyIiwiZXhwIjoxNTI4MTgwNzMxLCJpYXQiOjE1MjI5OTY3MzF9.1mMkPdyJJfZAWIHw3fFzcz_cNON-nBDQjUEneWXQL2I"
   }
 })
   .then(data => data.json())
